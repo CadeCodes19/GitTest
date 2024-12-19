@@ -8,7 +8,7 @@ body {
   color: #465258;
 }
 header {
-  width: 100%;
+  width: 100vw;
   padding: 24px;
   background-color: #faf9f6;
 }
@@ -31,6 +31,8 @@ nav > ul > li > a {
   font-weight: 650;
   text-decoration: none;
   color: #465258;
+  font-size: 1.5em;
+  font-style: italic;
 }
 
 nav > ul > li > a:hover {
@@ -43,11 +45,33 @@ nav > ul > li > a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  border-top: solid 2px #010a0f;
 }
 
 .meaning {
-  width: 60vw;
-  height: 80vh;
-  border: solid 1px black;
+  width: 50vw;
+  height: 60vh;
   margin: 0.5em 0 0 0;
+  font-size: 1.5em;
+  background-color: #e9e6d5;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.labels {
+  font-size: 3em;
+}
+
+.squestion {
+  margin-bottom: 3vh;
+}
+
+.Sections > .meaning ul li {
+  margin: 8px 0 4px 48px;
+}
+
+.Sections > .meaning ol li {
+  margin: 8px 0 4px 48px;
+  font-size: 0.84em;
 }
